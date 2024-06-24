@@ -1,0 +1,30 @@
+.main__container{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 80%;
+    margin-inline: auto;
+    font-size: 14px;
+    border-top: 1px solid lightgray;
+}
+
+.user__img__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5px;
+}
+
+.answer__container{
+        width: 90%;
+        align-content: center;
+        padding-left: 50px;
+}
+
+.answer__container p{
+    font-size: large;
+    
+}

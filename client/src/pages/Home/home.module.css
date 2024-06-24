@@ -1,0 +1,25 @@
+.ask__btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-inline: auto;
+    margin-block: 50px;
+    
+}
+
+.user_info {
+    margin-block: 10px;
+    text-align: right;
+    font-size: large;
+}
+
+.ask__btn>button{
+    /* width: 10%;  */
+    padding: 10px;
+    margin-left: 100px;
+    background-color:royalblue;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}

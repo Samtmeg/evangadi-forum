@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+.reg__home__container{
+    background-image: url('../assets/10001.svg');
+    background-size:cover;
+    background-color: rgb(248, 248, 248, 0.5);
+    height: 90vh;
+}
+
+.reg__container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-inline: auto;
+    padding-top: 120px;
+    background-color: rgb(248, 248, 248, 0);
+}
+
+.reg__form__container{
+    flex: 1;
+    /* padding: 10px; */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+.reg__uinfo__container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.reg__uemail__container, .reg__uname__container, .reg__unpwd__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+input{
+padding-left: 15px;
+}
+
+.reg__unpwd__container>button{
+    margin-left: -80px;
+    width: 10%;
+    background-color: transparent;
+}
+
+.reg__info__container{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(248, 248, 248, 0);
+}
+
+form>div>input,  form>div>button{
+    height:100%;
+    width: 45%;
+    font-size: 1.3em;
+    padding-block: 10px;
+}
+
+form>div>input  {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    transition: border-color 0.3s ease; 
+}
+
+form>div>input:focus  {
+    border-color: #FF8500;
+    background-color:aliceblue
+}
+
+form>div>button{
+    width: 95%;
+    padding-inline: 30px;
+    font-size: 1.3em;
+    padding-block: 10px;
+    /* border-radius: 5px; */
+}
+
+.aact__exists{
+    width: 80%;
+    font-size: 1.2em;
+    padding-block: 10px;
+}
+
+.aact__exists a{
+    text-decoration: none;
+    color: #FF8500
+}
+
+.reg__info__container h1{
+    font-size: 50px;
+}
+
+.reg__form__container>div{
+    text-align: center;
+    margin-block: 25px;
+    padding-block: 5px;
+}
+
+.reg__form__container .reg__title {
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #344767
+}
+
+form>div{
+    /* padding: 10px; */
+    width: 80%;
+    margin: auto;
+}
+
+.reg__card>div { 
+    padding-bottom: 25px;
+}
+
+.reg__pp__tos{
+    height:100%;
+    width: 80%;
+    padding-block: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+}
+
+.reg__pp__tos>p{
+    font-size:1.2rem;
+    padding-block: 10px;
+}
+
+.reg__pp__tos a{
+    font-size:1.2rem;
+    padding-block: 10px;
+    text-decoration: none;
+    color: #FF8500;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.reg__forgot__password:hover {
+    cursor:pointer;
+}
+
+.reg__info__container{
+    padding: 75px;
+}
+
+.reg__about{
+    color: #FF8500;
+}
+
+.reg__info__container .reg__info{
+    padding-block-start: 25px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.reg__span a{
+    color: #FF8500;
+    text-decoration: none;
+}
+
+.reg__span a:hover{
+    cursor:pointer;
+}
+
+.reg__create__new__account{
+    padding-block: 10px;
+    background-color: #FF8500;
+    color: white;
+    font-size: small;
+    margin-block-start: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 25px;
+}
+
+

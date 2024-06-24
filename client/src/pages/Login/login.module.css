@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.home_container{
+    background-image: url('../assets/10001.svg');
+    background-size:cover;
+    background-color: rgb(249, 249, 249, 0.5);
+    height: 90vh;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-inline: auto;
+    padding-top: 120px;
+    background-color: rgb(248, 248, 248, 0);
+}
+
+.login__form__container{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+.login__info__container{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(248, 248, 248, 0);
+}
+
+.login__info__container h1{
+    font-size: 50px;
+}
+
+.login__form__container>div{
+    text-align: center;
+    margin-block: 25px;
+    padding-block: 5px;
+}
+
+.login__form__container .login__title {
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #344767
+}
+
+form>div>div{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.login__card>div { 
+    padding-bottom: 25px;
+}
+
+form>div>div>input,  form>div>div>button{
+    height:100%;
+    width: 100%;
+    font-size: 1.3em;
+    padding-block: 10px;
+}
+
+.login__pswdom__container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+} 
+
+.login__pswdom__container button{
+    margin-left: -50px;
+    width: 10%;
+    background-color: transparent;
+}
+
+.forgot__password{
+    height:100%;
+    width: 100%;
+    padding-block: 10px;
+    font-size:0.6rem;
+    text-align: right;
+    color: #FF8500;
+    font-size: 1.1em;
+}
+
+.registerbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.forgot__password:hover {
+    cursor:pointer;
+}
+
+.login__info__container{
+    padding: 75px;
+}
+
+.login__about{
+    color: #FF8500;
+}
+
+.login__info__container .login__info{
+    padding-block-start: 25px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.login__span a{
+    color: #FF8500;
+    text-decoration: none;
+}
+
+.login__span a:hover{
+    cursor:pointer;
+}
+
+.create__new__account{
+    padding-block: 10px;
+    background-color: #FF8500;
+    color: white;
+    font-size: small;
+    margin-block-start: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 25px;
+}

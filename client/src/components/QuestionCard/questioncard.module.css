@@ -1,0 +1,39 @@
+.qn__container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-inline: auto;
+    font-size: 14px;
+    border-top: 1px solid lightgray;
+}
+
+.qn__img__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    padding-block: 25px;
+}
+
+.qn__title__container{
+        width: 80%;
+        align-content: center;
+        padding-left: 50px;
+}
+
+.qn__title__container p{
+    color:green;
+    font-size: large;
+    
+}
+
+.qn__lnk__container{
+    align-content: center;
+}
+
+.qn__container:hover{
+    cursor:pointer;
+}
